@@ -1,3 +1,0 @@
-hello this is new git
-let name = "Rahul"
-console.log(name)
