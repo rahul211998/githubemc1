@@ -1,0 +1,19 @@
+void main(){
+  Grandi20 grandi20 = Grandi20();
+  grandi20.carColor();
+}
+abstract class Car{
+  void carColor();
+  
+  void carSize();
+}
+
+class Grandi20 implements Car{
+  void carColor(){
+    print("blue");
+  }
+  
+  void carSize(){
+    print("54");
+  }
+}
